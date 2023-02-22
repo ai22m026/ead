@@ -1,0 +1,23 @@
+What is the difference between git and github?
+git is a source code management system
+github is a cloud based management system for git repos
+
+Name 3 benefits of a version control system:
+branching - working on different code features at the same time
+version history - the ability to look at the history of the code
+defining quality statements for code status like revisions
+
+Name 3 alternatives to git:
+svn - most used before git
+cvs - oldschool version history tool
+synergy - proprietary tool from ibm rational
+
+Name 2 differences between git and other version control systems:
+svn vs git:
+git is distributed version control system - no central single authoritative data store
+branching in git is lightweight - are only references to a certain commit --> Git Flow Branching Model
+
+Name known issues related to game engines (Unreal, Unity) and version control systems:
+large file size - git is not great with big files and with games can come big files.
+binary files - it´s problematic/impossible to merge binary files from different branches
+version compatibility/ dependencies - they are generally a pain in the ... 
