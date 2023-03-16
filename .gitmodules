@@ -1,0 +1,3 @@
+[submodule "pigskin/vendor/spdlog"]
+	path = pigskin/vendor/spdlog
+	url = https://github.com/gabime/spdlog
