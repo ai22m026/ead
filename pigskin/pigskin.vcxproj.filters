@@ -4,6 +4,9 @@
     <Filter Include="pigskin">
       <UniqueIdentifier>{7A9CB0AD-E67B-2F49-EF93-BA1F5BF295AA}</UniqueIdentifier>
     </Filter>
+    <Filter Include="pigskin\Events">
+      <UniqueIdentifier>{1E3B3EE8-0A09-32EE-F39C-A214DF090E53}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\PigSkin.h" />
@@ -15,6 +18,18 @@
     </ClInclude>
     <ClInclude Include="src\pigskin\EntryPoint.h">
       <Filter>pigskin</Filter>
+    </ClInclude>
+    <ClInclude Include="src\pigskin\Events\ApplicationEvent.h">
+      <Filter>pigskin\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\pigskin\Events\Event.h">
+      <Filter>pigskin\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\pigskin\Events\KeyEvent.h">
+      <Filter>pigskin\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\pigskin\Events\MouseEvent.h">
+      <Filter>pigskin\Events</Filter>
     </ClInclude>
     <ClInclude Include="src\pigskin\Log.h">
       <Filter>pigskin</Filter>

@@ -1,6 +1,6 @@
 workspace "Pigskin"
 	architecture "x86_64"
-	startproject "Pigskin"
+	startproject "Sandbox"
 
 	configurations
 	{
@@ -28,12 +28,13 @@ project "PigSkin"
 
 	includedirs
 	{
+		"%{prj.name}/src",
 		"%{prj.name}/vendor/spdlog/include"
 	}
 
 	filter "system:Windows"
 		staticruntime "on"
-		systemversion "10.0.22000.0"
+		systemversion "latest"
 
 		defines
 		{
@@ -86,7 +87,7 @@ project "Sandbox"
 
 	filter "system:windows"
 		staticruntime "on"
-		systemversion "10.0.22000.0"
+		systemversion "latest"
 
 		defines
 		{

@@ -12,3 +12,5 @@
 #error PigSkin only supports Windows!
 
 #endif // PS_PLATFORM_WINDOWS 
+
+#define BIT(x) (1 << x)

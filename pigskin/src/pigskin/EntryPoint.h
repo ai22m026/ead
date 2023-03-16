@@ -7,7 +7,10 @@ extern PigSkin::Application* PigSkin::CreateApplication();
 
 int main(int argc, char** argv)
 {
-	printf("PigSkin Engine! \n");
+	PigSkin::Log::Init();
+	PS_CORE_WARN("Initialized Log!");
+	PS_INFO("Initialized Log!");
+
 	auto app = PigSkin::CreateApplication();
 	app->Run();
 	delete app;
