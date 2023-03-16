@@ -11,3 +11,19 @@ Answer questions                                      60min
 Fight with git to allow push                          90min
 
 First weeks workload                                 390min = 7,5h 
+
+Aufwand zweite Woche:
+
+Look at first Video (Logging)                         90min
+Look at second Video (Premake)                        90min
+Debug Logging                                        120min
+
+Workload                                             300min = 6h
+
+Aufwand dritte Woche:
+
+Look at first Video (Planning the Event System)       35min
+Look at second Video (Event System)                   120min
+
+Workload                                              155min = 2h35min
+
